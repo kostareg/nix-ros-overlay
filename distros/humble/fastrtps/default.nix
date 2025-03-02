@@ -10,7 +10,7 @@ buildRosPackage {
   src = fetchurl {
     url = "https://github.com/ros2-gbp/fastrtps-release/archive/release/humble/fastrtps/2.6.8-1.tar.gz";
     name = "2.6.8-1.tar.gz";
-    sha256 = "7d3109581c9d2293a8ac72ee1f29305dd087397a77bb480f1f79a55c804343ac";
+    sha256 = "sha256-ngNzOWIqCaaJF8OXdbrP/ig9yIa7+XhcJznrg3hqAK8=";
   };
 
   buildType = "cmake";
